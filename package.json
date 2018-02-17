@@ -1,0 +1,17 @@
+{
+  "name": "friday-telegram-bot",
+  "version": "0.0.1",
+  "description": "This is a simple bot for telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["telegram", "bot"],
+  "author": "Dmitriy Shved <dshved@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "emoji-regex": "^6.5.1",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
